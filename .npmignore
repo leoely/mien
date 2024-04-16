@@ -1,0 +1,13 @@
+node_modules/
+src/
+test/
+.editorconfig
+.gitattributes
+.eslintrc
+.eslintignore
+gulpfile.babel.js
+babel.config.json
+README.md
+LICENSE
+.nvmrc
+yarn.lock
