@@ -1,6 +1,6 @@
 import { execSync, } from 'child_process';
 import chalk from 'chalk';
-import compareVersion from '~/lib/util/compareVersion';
+import compareVersion from '~/lib/compareVersion';
 
 function greaterOrEqualVersion(v1, v2) {
   const result = compareVersion(v1, v2, (sv1, sv2) => sv1 >= sv2);
