@@ -7,9 +7,9 @@ function greaterOrEqualVersion(v1, v2) {
   return !result.some((flag) => !flag);
 }
 
-export default function checkVersion() {
+export default function checkVersion(version) {
   const v = execSync('node -v').toString();
-  if (!greaterOrEqualVersion(v.substring(0, v.length - 1), 'v21.6.2')) {
+  if (!greaterOrEqualVersion(v.substring(0, v.length - 1), version)) {
     console.error([
       '',
       chalk.bold('The version of node currently used is lower:'),
