@@ -14,7 +14,7 @@ export default function checkVersion(version) {
       '',
       chalk.bold('The version of node currently used is lower:'),
       '',
-      'please use node version greater or equal than v19.3.0.',
+      `please use node version greater or equal than ${version}.`,
       'use command `' + chalk.bold('node -v') + '` check current version of node.',
       '',
       chalk.bold('the following are possible solutions:'),
