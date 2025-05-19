@@ -1,6 +1,6 @@
 {
   "name": "mien",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Terminal related library.",
   "main": "dist/index.js",
   "repository": "git@github.com:leoely/mien.git",
